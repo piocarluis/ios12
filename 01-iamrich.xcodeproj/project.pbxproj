@@ -54,14 +54,30 @@
 		0345FE7621DC4A2300E1D8DC /* 01-iamrich */ = {
 			isa = PBXGroup;
 			children = (
+				0345FE8A21DC4AB300E1D8DC /* Controller */,
+				0345FE8921DC4A9900E1D8DC /* StoryBoard */,
 				0345FE7721DC4A2300E1D8DC /* AppDelegate.swift */,
-				0345FE7921DC4A2300E1D8DC /* ViewController.swift */,
-				0345FE7B21DC4A2300E1D8DC /* Main.storyboard */,
 				0345FE7E21DC4A2400E1D8DC /* Assets.xcassets */,
-				0345FE8021DC4A2400E1D8DC /* LaunchScreen.storyboard */,
 				0345FE8321DC4A2400E1D8DC /* Info.plist */,
 			);
 			path = "01-iamrich";
+			sourceTree = "<group>";
+		};
+		0345FE8921DC4A9900E1D8DC /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				0345FE7B21DC4A2300E1D8DC /* Main.storyboard */,
+				0345FE8021DC4A2400E1D8DC /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		0345FE8A21DC4AB300E1D8DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0345FE7921DC4A2300E1D8DC /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
